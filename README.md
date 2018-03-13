@@ -7,7 +7,7 @@
 * [fader motorizzato](https://blog.codyhazelwood.me/motorized-faders-and-the-arduino/)
 
 ## Current sensing theory
-* (link)[https://electronics.stackexchange.com/questions/70524/arduino-motor-shield-r3-current-sensing]
+* [link](https://electronics.stackexchange.com/questions/70524/arduino-motor-shield-r3-current-sensing)
 
 ## Touch sensing (Arduino Cap library)
 
