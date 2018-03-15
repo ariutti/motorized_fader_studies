@@ -14,6 +14,7 @@ uint16_t pot, destination;
 int LOWSTOP = 20;
 int HIGHSTOP = 1000;
 int MOTORSPEED = 85;
+int DLY_TIME = 1;
 
 enum {
   SEEK_STOP = 0,
@@ -114,7 +115,7 @@ void loop()
     }
     
   } // end of MASTER_SEKK state
-  delay(10);
+  delay(DLY_TIME);
 }
 
 
