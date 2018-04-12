@@ -26,6 +26,39 @@ Di seguito alcune considerazioni sull librerie testater
 * [Arduino cap library](https://playground.arduino.cc/Main/CapacitiveSensor?from=Main.CapSense) sembra essere molto dispendiosa in termini di tempo sottratto al ciclo loop. Il metodo _set_CS_Timeout_Millis_ sembra essere la causa del problema. La libreria richiede due pin digitali e alcuni componenti elettrici di contorno;
 * [ADCTouch](https://github.com/martin2250/ADCTouch): sembra essere un po' meno precisa, ma più rapida (al massimo occupa 20ms). Non sembra essere troppo bloccante il ciclo loop. Maggiore è il quantitativo si samples che si richiede vengano campionati, maggiore il tempo impiegato dalla libreria per restituire il controllo al main. Usa un solo pin analogico anzichè due digitali.
 
+## Stepper motors informations
+
+More resources at the [Arduino website](https://www.arduino.cc/en/Reference/Stepper).
+
+### Driver and Translator circuits
+
+Da verificare:
+
+* High-Power Motor Driver 24v23 CS (Pololu product number 1456);
+* Simple High-Power Motor Controller 24v23 (Pololu product number 1383);
+* G2 High-Power Motor Driver 24v13 (Pololu product number 2992);
+* Simple High-Power Motor Controller 24v12 (Fully Assembled) (Pololu product number 1378);
+* Simple High-Power Motor Controller 18v25 (Pololu product number 1381)
+* High-Power Motor Driver 18v25 (Pololu product number 758)
+* SyRen25 Controllo motore 25A (Robot Italy product number 330012) [link:](https://www.robot-italy.com/it/syren25-25a-motor-controller.html)
+
+Non utilizzabili con gli stepper:
+
+* Sparkfun Monster Moto Shield - [link](https://www.sparkfun.com/products/10182)
+* Pololu Dual VNH5019 Motor Driver - [link](https://www.pololu.com/product/2507)
+
+Utilizzabili con i motori stepper:
+
+* Keyes Stepper Motor for Arduino control - [link](http://en.keyes-robot.com/productshow.aspx?id=217)
+
+### Motors
+
+* Bipolar Stepper NEMA 16 (Robot Italy product number 709238) - [link](https://www.robot-italy.com/it/stepper-motor-with-cable.html)
+* Bipolar Stepper NEMA 14 (Pololu product number 1207) - [link](https://www.pololu.com/product/1207)
+
+
+
+
 ## References and links
 
 ### Esempi e informazioni sull'utilizzo della Sparkfun Moto Shield
