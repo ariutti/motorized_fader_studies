@@ -1,16 +1,16 @@
 /*
- * A simple sketch to work with a NEMA14 + 
- * a Keyes stepper motor board + a RepRap StepStick + 
- * 2x push buttons + 2x 10 KOhm resistors. 
- * 
+ * A simple sketch to work with a NEMA14 +
+ * a Keyes stepper motor board + a RepRap StepStick +
+ * 2x push buttons + 2x 10 KOhm resistors.
+ *
  * Look at mages to see how the circuit is made.
  */
 
 
 // Motor Stuff
-#define E 10
-#define D 9
-#define S 8
+#define E 11
+#define D 10
+#define S 9
 bool enable = false;
 bool dir    = false;
 bool step   = false;
@@ -22,7 +22,7 @@ unsigned long currTime, lastTime = 0.0;
 
 
 // SETUP /////////////////////////////////////////////////
-void setup() 
+void setup()
 {
   Serial.begin(9600);
 
@@ -79,11 +79,7 @@ void loop()
     digitalWrite(D, dir);
   }
 
-  
-  
 
-
-  
   currTime = micros();
   if( (currTime - lastTime) > 100)
   {
@@ -92,4 +88,5 @@ void loop()
     //Serial.println(step);
     lastTime = currTime;
   }
+
 }

@@ -12,6 +12,11 @@ Il repository contiene software e datasheets per le componenti hardware utilizza
 * la cartella ```Processing_code``` contiene il codice _Processing_ usato per testare la comunicazione seriale;
 * la cartella ```datasheets``` contiene invece tutti i documenti _.pdf_ relativi all'hardware inpiegato;
 
+## Libraries
+
+* timers and interrupts [TimerOne](https://www.pjrc.com/teensy/td_libs_TimerOne.html);
+
+
 ## Touch sensing (Arduino Cap library)
 
 Quando utilizziamo una libreria per il touch dobbiamo fare i conti con il fatto che alcuni dei metodi usati per il sensing occupano tempo macchina. Eseguono cioè operazioni che impediscono al ciclo _loop_ di lavorare ad altro.
@@ -28,7 +33,7 @@ Di seguito alcune considerazioni sull librerie testater
 
 ## Stepper motors informations
 
-More resources at the [Arduino website](https://www.arduino.cc/en/Reference/Stepper).
+More resources at the [Arduino website](https://www.arduino.cc/en/Reference/Stepper), [Tom Igoe webpage]().
 
 ### Driver and Translator circuits
 

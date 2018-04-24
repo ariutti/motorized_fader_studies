@@ -1,0 +1,166 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<!-- Created with Fritzing (http://www.fritzing.org/) -->
+<svg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' version='1.2' baseProfile='tiny' x='0in' y='0in' width='1.66535in' height='2.73061in' viewBox='0 0 119.906 196.604' >
+<path stroke='#d40000' stroke-width='4.15175' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M64.0538,193.747L64.0538,194.528' />
+<path stroke='#d40000' stroke-width='4.15175' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M49.9932,193.747L49.9932,194.528' />
+<path stroke='#000000' stroke-width='4.15175' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M57.0235,193.747L57.0235,194.528' />
+<path stroke='#000000' stroke-width='4.15175' stroke-linecap='round' stroke-linejoin='round' fill='none' d='M71.0841,193.747L71.0841,194.528' />
+<g partID='88490'><g  id="breadboard">
+ <linearGradient  gradientUnits="userSpaceOnUse" id="linearGradient4678" y1="14.0606" y2="77.3332" x1="28.1212" x2="70.3029">
+  <stop  offset="0" id="stop3293" style="stop-color:#b3b3b3;stop-opacity:1;"/>
+  <stop  offset="1" id="stop3295" style="stop-color:#b3b3b3;stop-opacity:0.35135135;"/>
+ </linearGradient>
+ <linearGradient  gradientUnits="userSpaceOnUse" id="linearGradient4682" y1="70.3029" y2="70.3029" x1="56.2423" gradientTransform="translate(0,-76.499998)" x2="63.2726">
+  <stop  offset="0" id="stop3416" style="stop-color:#e6e6e6;stop-opacity:1;"/>
+  <stop  offset="0.5" id="stop3422" style="stop-color:#656565;stop-opacity:1;"/>
+  <stop  offset="1" id="stop3418" style="stop-color:#9f9f9f;stop-opacity:1;"/>
+ </linearGradient>
+ <linearGradient  gradientUnits="userSpaceOnUse" id="linearGradient2811" y1="7.03029" y2="14.0606" x1="14.0606" x2="14.0606">
+  <stop  offset="0" id="stop3221" style="stop-color:#000000;stop-opacity:1;"/>
+  <stop  offset="1" id="stop3223" style="stop-color:#cfcfcf;stop-opacity:1;"/>
+ </linearGradient>
+ <g transform="matrix(1, 0, 0, 1, 0, 21.6321)">
+  <g  id="StepperMotor">
+   <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+    <path  stroke-width="0.781143" id="MotorHousing" fill-opacity="1" stroke-opacity="1" fill="#4d4d4d" d="M1.39141,120.906L1.39141,217.085L14.3779,223.578L105.186,223.578L118.124,217.085L118.124,120.906L1.39141,120.906z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   </g>
+   <path  stroke-width="0.781143" id="MotorHousingShade" fill-opacity="1" stroke-opacity="1" fill="#333333" d="M1.39141,85.4376L1.39141,127.619L14.0606,133.966L14.0606,91.7843L1.39141,85.4376zM118.124,84.6564L105.454,91.0032L105.454,133.185L118.124,126.838L118.124,84.6564z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapTop" fill-opacity="1" stroke-opacity="1" fill="#e6e6e6" d="M0,7.03029L14.0606,1.46074e-06L105.454,1.46074e-06L119.515,7.03029L119.515,52.7272L105.454,59.7575L13.8812,59.7575L0,52.7272L0,7.03029z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <g transform="matrix(1, 0, 0, 0.5, 0, 1.46074e-06)">
+    <path  stroke-width="0.781143" id="CapTopShade" fill-opacity="1" stroke-opacity="1" fill="url(#linearGradient4678)" d="M14.6708,1.48905L1.48905,14.6708L1.48905,104.82L14.5244,118.026L104.844,118.026L118.026,104.844L118.026,14.6708L104.844,1.48905L14.6708,1.48905z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   </g>
+   <path  stroke-width="0.781143" id="CapTopGrove" stroke-opacity="1" fill="none" d="M92.7663,31.441C92.7663,40.5515,77.9783,47.9454,59.7575,47.9454C41.5366,47.9454,26.7486,40.5515,26.7486,31.441C26.7486,22.3306,41.5366,14.9366,59.7575,14.9366C77.9783,14.9366,92.7663,22.3306,92.7663,31.441z" stroke="#b3b3b3" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <g transform="matrix(1, 0, 0, 0.5, 0, 1.46074e-06)">
+    <g  id="CapTopMountHole0">
+     <path  stroke-width="0.781143" id="path2388" fill-opacity="1" stroke-opacity="1" fill="url(#linearGradient2811)" d="M19.3333,14.0606C19.3333,16.9711,16.9711,19.3333,14.0606,19.3333C11.15,19.3333,8.78786,16.9711,8.78786,14.0606C8.78786,11.15,11.15,8.78786,14.0606,8.78786C16.9711,8.78786,19.3333,11.15,19.3333,14.0606z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+     <path  stroke-width="0.781143" id="path3177" stroke-opacity="1" fill="#000000" d="M17.5757,15.4445C17.5757,17.3849,16.0009,18.9596,14.0606,18.9596C12.1202,18.9596,10.5454,17.3849,10.5454,15.4445C10.5454,13.5041,12.1202,11.9294,14.0606,11.9294C16.0009,11.9294,17.5757,13.5041,17.5757,15.4445z" stroke="none" style="opacity:0.96000001;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 91.3938, 1.01549e-07)">
+    <g  id="CapTopMountHole1">
+     <g transform="matrix(1, 0, 0, 0.5, 0, 1.46074e-06)">
+      <g >
+       <path  stroke-width="0.781143" id="path2388" fill-opacity="1" stroke-opacity="1" fill="url(#linearGradient2811)" d="M19.3333,14.0606C19.3333,16.9711,16.9711,19.3333,14.0606,19.3333C11.15,19.3333,8.78786,16.9711,8.78786,14.0606C8.78786,11.15,11.15,8.78786,14.0606,8.78786C16.9711,8.78786,19.3333,11.15,19.3333,14.0606z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+       <path  stroke-width="0.781143" id="path3177" stroke-opacity="1" fill="#000000" d="M17.5757,15.4445C17.5757,17.3849,16.0009,18.9596,14.0606,18.9596C12.1202,18.9596,10.5454,17.3849,10.5454,15.4445C10.5454,13.5041,12.1202,11.9294,14.0606,11.9294C16.0009,11.9294,17.5757,13.5041,17.5757,15.4445z" stroke="none" style="opacity:0.96000001;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 0, 45.6969)">
+    <g  id="CapTopMountHole2">
+     <g transform="matrix(1, 0, 0, 1, 91.3938, 1.01549e-07)">
+      <g >
+       <g transform="matrix(1, 0, 0, 0.5, 0, 1.46074e-06)">
+        <g >
+         <path  stroke-width="0.781143" id="path2388" fill-opacity="1" stroke-opacity="1" fill="url(#linearGradient2811)" d="M19.3333,14.0606C19.3333,16.9711,16.9711,19.3333,14.0606,19.3333C11.15,19.3333,8.78786,16.9711,8.78786,14.0606C8.78786,11.15,11.15,8.78786,14.0606,8.78786C16.9711,8.78786,19.3333,11.15,19.3333,14.0606z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+         <path  stroke-width="0.781143" id="path3177" stroke-opacity="1" fill="#000000" d="M17.5757,15.4445C17.5757,17.3849,16.0009,18.9596,14.0606,18.9596C12.1202,18.9596,10.5454,17.3849,10.5454,15.4445C10.5454,13.5041,12.1202,11.9294,14.0606,11.9294C16.0009,11.9294,17.5757,13.5041,17.5757,15.4445z" stroke="none" style="opacity:0.96000001;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, -91.3938, 1.01549e-07)">
+    <g  id="CapTopMountHole3">
+     <g transform="matrix(1, 0, 0, 1, 0, 45.6969)">
+      <g >
+       <g transform="matrix(1, 0, 0, 1, 91.3938, 1.01549e-07)">
+        <g >
+         <g transform="matrix(1, 0, 0, 0.5, 0, 1.46074e-06)">
+          <g >
+           <path  stroke-width="0.781143" id="path2388" fill-opacity="1" stroke-opacity="1" fill="url(#linearGradient2811)" d="M19.3333,14.0606C19.3333,16.9711,16.9711,19.3333,14.0606,19.3333C11.15,19.3333,8.78786,16.9711,8.78786,14.0606C8.78786,11.15,11.15,8.78786,14.0606,8.78786C16.9711,8.78786,19.3333,11.15,19.3333,14.0606z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+           <path  stroke-width="0.781143" id="path3177" stroke-opacity="1" fill="#000000" d="M17.5757,15.4445C17.5757,17.3849,16.0009,18.9596,14.0606,18.9596C12.1202,18.9596,10.5454,17.3849,10.5454,15.4445C10.5454,13.5041,12.1202,11.9294,14.0606,11.9294C16.0009,11.9294,17.5757,13.5041,17.5757,15.4445z" stroke="none" style="opacity:0.96000001;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+          </g>
+         </g>
+        </g>
+       </g>
+      </g>
+     </g>
+    </g>
+   </g>
+   <path  stroke-width="0.781143" id="CapTopBevelHilite" stroke-opacity="1" fill="#f9f9f9" d="M90.2036,31.441C90.2036,39.8442,76.5637,46.6641,59.7575,46.6641C42.9512,46.6641,29.3113,39.8442,29.3113,31.441C29.3113,23.0379,42.9512,16.218,59.7575,16.218C76.5637,16.218,90.2036,23.0379,90.2036,31.441z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="CapTopBevel" stroke-opacity="1" fill="#999999" d="M90.2036,29.8787C90.2036,38.2819,76.5637,45.1018,59.7575,45.1018C42.9512,45.1018,29.3113,38.2819,29.3113,29.8787C29.3113,21.4756,42.9512,14.6557,59.7575,14.6557C76.5637,14.6557,90.2036,21.4756,90.2036,29.8787z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="CapTopShaftHole" stroke-opacity="1" fill="#333333" d="M69.4449,29.8787C69.4449,32.5525,65.1049,34.7224,59.7575,34.7224C54.41,34.7224,50.0701,32.5525,50.0701,29.8787C50.0701,27.205,54.41,25.035,59.7575,25.035C65.1049,25.035,69.4449,27.205,69.4449,29.8787z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="Cap" fill-opacity="1" stroke-opacity="1" fill="#b3b3b3" d="M0,52.7272L0,94.9089L14.0606,101.939L17.1852,101.158L17.1852,87.8786L102.33,87.8786L102.33,101.158L105.454,101.939L119.515,94.9089L119.515,52.7272L105.454,59.7575L14.0606,59.7575L0,52.7272zM0,115.996L0,158.177L14.0606,165.208L105.454,165.208L119.515,158.177L119.515,115.996L105.454,123.026L102.33,125.369L102.33,133.962L105.454,137.086L14.0606,137.086L17.1852,133.962L17.1852,125.369L14.0606,123.026L0,115.996z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="CapShade" stroke-opacity="1" fill="#999999" d="M14.0606,101.939L0,94.9089L0,52.7272L14.0606,59.7575L14.0606,101.939zM105.454,101.939L119.515,94.9089L119.515,52.7272L105.454,59.7575L105.454,101.939zM105.454,165.212L119.515,158.182L119.515,116L105.454,123.03L105.454,165.212zM14.0606,165.212L0,158.182L0,116L14.0606,123.03L14.0606,165.212z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="Shaft" fill-opacity="1" stroke-opacity="1" fill="url(#linearGradient4682)" d="M66.677,-17.1744L66.677,29.8787C66.677,31.7885,63.5771,33.3385,59.7575,33.3385C55.9379,33.3385,52.8379,31.7885,52.8379,29.8787L52.8379,-17.1744C52.8379,-19.0842,55.9379,-20.6342,59.7575,-20.6342C63.5771,-20.6342,66.677,-19.0842,66.677,-17.1744z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="ShaftBevel" stroke-opacity="1" fill="#e6e6e6" d="M66.677,-17.1744C66.677,-15.2646,63.5771,-13.7146,59.7575,-13.7146C55.9379,-13.7146,52.8379,-15.2646,52.8379,-17.1744C52.8379,-19.0842,55.9379,-20.6342,59.7575,-20.6342C63.5771,-20.6342,66.677,-19.0842,66.677,-17.1744z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="ShaftTop" stroke-opacity="1" fill="#cccccc" d="M65.5483,-18.7367C65.5483,-17.1384,62.954,-15.8413,59.7575,-15.8413C56.5609,-15.8413,53.9667,-17.1384,53.9667,-18.7367C53.9667,-20.3349,56.5609,-21.6321,59.7575,-21.6321C62.954,-21.6321,65.5483,-20.3349,65.5483,-18.7367z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="ShaftTopHole" stroke-opacity="1" fill="#666666" d="M62.4442,-18.7367C62.4442,-17.9951,61.2405,-17.3933,59.7575,-17.3933C58.2744,-17.3933,57.0707,-17.9951,57.0707,-18.7367C57.0707,-19.4782,58.2744,-20.08,59.7575,-20.08C61.2405,-20.08,62.4442,-19.4782,62.4442,-18.7367z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;"/>
+   <path  stroke-width="0.781143" id="CapBevelHilite" fill-opacity="1" stroke-opacity="1" fill="#f2f2f2" d="M0,52.7272L0,55.8518L14.0606,62.882L105.454,62.882L119.515,55.8518L119.515,52.7272L105.454,59.7575L14.0606,59.7575L0,52.7272zM0,116L0,119.124L14.0606,126.155L14.0606,123.03L0,116zM119.515,116L105.454,123.03L105.454,126.155L119.515,119.124L119.515,116zM17.1852,133.962L14.0606,137.091L105.454,137.091L102.33,133.962L17.1852,133.962z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapBevelShade" fill-opacity="1" stroke-opacity="1" fill="#1a1a1a" d="M17.1852,87.8786L17.1852,91.0032L102.33,91.0032L102.33,87.8786L17.1852,87.8786zM1.39141,95.5924L1.39141,98.717L14.0606,105.064L17.1852,104.283L17.1852,101.158L14.0606,101.939L1.39141,95.5924zM118.124,95.5924L105.454,101.939L102.33,101.158L102.33,104.283L105.454,105.064L118.124,98.717L118.124,95.5924z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapConnectorTop" fill-opacity="1" stroke-opacity="1" fill="#e6e6e6" d="M33.5892,144.121L85.9258,144.121L85.9258,151.151L33.5892,151.151L33.5892,144.121z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapConnector" fill-opacity="1" stroke-opacity="1" fill="#999999" d="M33.5892,151.151L85.9258,151.151L85.9258,166.774L33.5892,166.774L33.5892,151.151z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapConnectorHousingTop" fill-opacity="1" stroke-opacity="1" fill="#4d4d4d" d="M36.7137,145.683L82.8012,145.683L82.8012,151.151L36.7137,151.151L36.7137,145.683z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapConnectorHousing" fill-opacity="1" stroke-opacity="1" fill="#333333" d="M36.7137,151.151L82.8012,151.151L82.8012,163.65L36.7137,163.65L36.7137,151.151z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapConnectorHousingInset" fill-opacity="1" stroke-opacity="1" fill="#4d4d4d" d="M38.276,151.151L81.2389,151.151L81.2389,160.525L38.276,160.525L38.276,151.151z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <path  stroke-width="0.781143" id="CapConnectorHousingInsetBack" fill-opacity="1" stroke-opacity="1" fill="#1a1a1a" d="M38.276,147.246L81.2389,147.246L81.2389,155.838L38.276,155.838L38.276,147.246z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+   <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+    <g  id="CapConnectorPin0">
+     <path  stroke-width="2.76783" id="PinBase" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#808000" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+     <path  stroke-width="0.553566" id="PinHilite" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#ffff00" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 7.03029, 0)">
+    <g  id="CapConnectorPin1">
+     <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+      <g >
+       <path  stroke-width="2.76783" id="PinBase" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#808000" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+       <path  stroke-width="0.553566" id="PinHilite" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#ffff00" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 14.0606, 0)">
+    <g  id="CapConnectorPin2">
+     <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+      <g >
+       <path  stroke-width="2.76783" id="PinBase" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#808000" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+       <path  stroke-width="0.553566" id="PinHilite" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#ffff00" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 21.0909, 0)">
+    <g  id="CapConnectorPin3">
+     <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+      <g >
+       <path  stroke-width="2.76783" id="PinBase" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#808000" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+       <path  stroke-width="0.553566" id="PinHilite" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#ffff00" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 28.1212, 0)">
+    <g  id="CapConnectorPin4">
+     <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+      <g >
+       <path  stroke-width="2.76783" id="PinBase" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#808000" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+       <path  stroke-width="0.553566" id="PinHilite" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#ffff00" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+      </g>
+     </g>
+    </g>
+   </g>
+   <g transform="matrix(1, 0, 0, 1, 35.1515, 0)">
+    <g  id="CapConnectorPin5">
+     <g transform="matrix(1, 0, 0, 1, 0, -59.7575)">
+      <g >
+       <path  stroke-width="2.76783" id="PinBase" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#808000" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+       <path  stroke-width="0.553566" id="PinHilite" stroke-opacity="1" fill="none" d="M42.1817,210.909L42.1817,217.939" stroke="#ffff00" style="fill-rule:evenodd;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;"/>
+      </g>
+     </g>
+    </g>
+   </g>
+  </g>
+ </g>
+ <g  id="JSTConnectorF">
+  <path  stroke-width="0.781143" id="HousingTop" fill-opacity="1" stroke-opacity="1" fill="#e3e2db" d="M38.276,170.44L81.2389,170.44L81.2389,179.032L38.276,179.032L38.276,170.44z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+  <path  stroke-width="0.781143" id="Housing" fill-opacity="1" stroke-opacity="1" fill="#c8c4b7" d="M38.276,175.908L81.2389,175.908L81.2389,183.719L38.276,183.719L38.276,175.908z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+  <path  stroke-width="0.781143" id="HousingSlots" fill-opacity="1" stroke-opacity="1" fill="#6c5d53" d="M74.5016,177.495L80.1648,177.495L80.1648,183.159L74.5016,183.159L74.5016,177.495zM60.441,177.495L66.1043,177.495L66.1043,183.159L60.441,183.159L60.441,177.495zM53.4107,177.495L59.074,177.495L59.074,183.159L53.4107,183.159L53.4107,177.495zM67.4713,177.495L73.1346,177.495L73.1346,183.159L67.4713,183.159L67.4713,177.495zM39.3501,177.495L45.0134,177.495L45.0134,183.159L39.3501,183.159L39.3501,177.495zM46.3804,177.495L52.0437,177.495L52.0437,183.159L46.3804,183.159L46.3804,177.495z" stroke="none" style="fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"/>
+ </g>
+ <rect  x="44.5252" stroke-width="0.781143" id="connector0pin" fill-opacity="1" stroke-opacity="1" fill="none" y="193.747" stroke="none" height="0.781143" style="opacity:1;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="0.781143"/>
+ <rect  x="55.4612" stroke-width="0.781143" id="connector1pin" fill-opacity="1" stroke-opacity="1" fill="none" y="193.747" stroke="none" height="0.781143" style="opacity:1;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="0.781143"/>
+ <rect  x="63.2726" stroke-width="0.781143" id="connector2pin" fill-opacity="1" stroke-opacity="1" fill="none" y="193.747" stroke="none" height="7.03029" style="opacity:1;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="7.03029"/>
+ <rect  x="76.5521" stroke-width="0.781143" id="connector3pin" fill-opacity="1" stroke-opacity="1" fill="none" y="193.747" stroke="none" height="7.03029" style="opacity:1;fill-rule:evenodd;stroke-linecap:butt;stroke-linejoin:miter;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" width="7.03029"/>
+</g>
+</g></svg>
