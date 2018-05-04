@@ -5,6 +5,7 @@ Il repository contiene software e datasheets per le componenti hardware utilizza
 * Arduino UNO;
 * Sparkfun "_Monster Moto shield_";
 
+
 ## Contenuto
 
 * Nella cartella ```Arduino_code``` sono presenti gli sketch sviluppati durante il processo di prototipazione;
@@ -12,9 +13,11 @@ Il repository contiene software e datasheets per le componenti hardware utilizza
 * la cartella ```Processing_code``` contiene il codice _Processing_ usato per testare la comunicazione seriale;
 * la cartella ```datasheets``` contiene invece tutti i documenti _.pdf_ relativi all'hardware inpiegato;
 
+
 ## Libraries
 
 * timers and interrupts [TimerOne](https://www.pjrc.com/teensy/td_libs_TimerOne.html);
+* Pololu [Time of flight - VL53L0X library](https://github.com/pololu/vl53l0x-arduino);
 
 
 ## Touch sensing (Arduino Cap library)
