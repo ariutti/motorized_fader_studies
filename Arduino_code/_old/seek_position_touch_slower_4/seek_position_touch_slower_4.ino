@@ -66,7 +66,7 @@ void loop()
 
   Serial.print('p');
   Serial.print(pot);
-  Serial.print(';');
+  Serial.println(';');
   
   // Master state machine ****************/
   if(master_state == MASTER_TOUCH)
@@ -209,7 +209,7 @@ bool isArrived()
 {
   if(seek_state == SEEK_FORWARD ) // sub-state machine (seeking)
   {
-    //Serial.println(pot);
+    Serial.println(pot);
     if(pot >= destination)
     {
       return true;
