@@ -44,7 +44,7 @@ enum {
 
 Motor motor;
 unsigned int timeGap = 10000;// in uSecs
-unsigned int MOTORSPEED = 160; // use 160 if the motor need to drag an heavy load
+unsigned int MOTORSPEED = 130; // use 160 if the motor need to drag an heavy load
 volatile boolean motorStatus = true;
 volatile unsigned int motorChangeCount = 0;
 boolean motorStatusCopy;
@@ -53,8 +53,8 @@ unsigned int motorChangeCountCopy;
 #define POT A4
 int ADDR_POT = 15;
 uint16_t pot, destination;
-int STOP_LOW = 20;
-int STOP_HIGH = 1000;
+int STOP_LOW = 100;
+int STOP_HIGH = 800;
 int DLY_TIME = 10;
 // this is the minimum distance of the new choosen destination
 int DISTANCE = 400;
@@ -192,6 +192,7 @@ bool touched = false;
       mpr.bPadState[j] = true;
       touched=true;
       digitalWrite(LED, mpr.bPadState[j]);
+      Serial.print('t'); Serial.print(1); Serial.println(';');
     }
     if (!(mpr.currtouched & _BV(j)) && (mpr.lasttouched & _BV(j)) ) 
     {
@@ -199,6 +200,7 @@ bool touched = false;
       //Serial.print("Pad "); Serial.print(j); Serial.println("\treleased!");
       mpr.bPadState[j] = false;
       digitalWrite(LED, mpr.bPadState[j]);
+      Serial.print('t'); Serial.print(0); Serial.println(';');
     }
   }
   mpr.lasttouched = mpr.currtouched; // save the state for the next cycle
